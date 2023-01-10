@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: whitesmoke;
+    color: #000;
+    width: 20rem;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    border: 2px solid gainsboro;
+    outline: none;
+    padding: 7px 12px;
+}
+
+form a {
+    text-decoration: none;
+}
+
+#submitBtn {
+    margin-top: 30px;
+    align-self: flex-start;
+    padding: 8px 15px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+}
