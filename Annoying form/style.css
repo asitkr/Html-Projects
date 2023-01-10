@@ -50,3 +50,10 @@ form a {
     border: none;
     transition: 0.5s ease;
 }
+
+#help__text {
+    color: red;
+    margin: 5px 8px;
+    text-align: justify;
+    padding: 7px;
+}
